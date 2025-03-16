@@ -26,6 +26,13 @@ enum Hobby {
   Paddling
 }
 
+enum Instructor {
+  Conner
+  Moore
+  Morita
+  Port
+}
+
 enum Level {
   Freshman
   Sophomore
@@ -49,4 +56,5 @@ model StudentData {
   level   Level
   gpa     Int
   major   Major
+  instructor Instructor
 }
